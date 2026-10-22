@@ -1,4 +1,1 @@
-Now 25 traits to choose from (was 15).
-- New choices: Pure-blooded, Feeble, Lunatic, Possessed, Depressed, Wheezing, Bleeder, Club-footed, Hunchbacked and Stuttering.
-- Fixed: the base game only applies eight of the choices when a child is born, so most of the extra traits did nothing. The mod now has its own birth handler for every trait it adds.
-- New cover, banner and screenshots showing the full list.
+New description. No gameplay changes since the 25-trait update.

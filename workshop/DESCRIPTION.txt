@@ -1,29 +1,41 @@
 [h1]Extra Ancestry Architecture[/h1]
-Reworks the [b]Architected Ancestry[/b] dynasty perk (the fourth perk of the [b]Blood[/b] legacy). When you unlock it you pick one congenital trait to become more common in your dynasty; this mod gives you far more traits to pick from, and makes sure each one is actually handed out when a child is born.
+[i]Breed the bloodline you actually want.[/i]
 
-[h2]What changes[/h2]
+The [b]Architected Ancestry[/b] dynasty perk (Blood legacy, fourth perk) lets you pick one congenital trait to become more common in your dynasty. The base game gives you [b]8[/b] choices. This mod gives you [b]25[/b].
+
+[h2]Your choices[/h2]
+[b]Gifted blood[/b]
 [list]
-[*] [b]25 traits to choose from[/b] instead of 8
-[*] [b]Beauty, Intellect and Physique[/b] now offer the top tier (III) instead of tier I
-[*] [b]Good and neutral:[/b] Pure-blooded, Ambitious, Zealous, Paranoid
-[*] [b]Physical:[/b] Spindly, Inbred, Feeble, Wheezing, Bleeder, Club-footed, Hunchbacked, Stuttering
-[*] [b]Mind:[/b] Lunatic, Possessed, Depressed
-[*] [b]Also there:[/b] Hideous and Imbecile (tier III), plus Fecund, Albino, Giant, Dwarf and Scaly from the base game
-[*] In English the perk is renamed [b]Extra Architected Ancestry[/b]
+[*] Beautiful, Genius and Divine (all three at the top tier, III)
+[*] Fecund, Pure-blooded
+[*] Ambitious, Zealous
 [/list]
-
-[h2]How it works[/h2]
+[b]Strange blood[/b]
 [list]
-[*] The base game only applies eight of the choices when a child is born. This mod adds its own birth handler for the rest, using the same rules: the child must belong to a dynasty with the perk, one real parent must be of that dynasty, and a child who already has a conflicting trait is skipped
-[*] Same chance as the base game (5%, plus 5% when a parent is a player)
-[*] Fecund, Giant, Dwarf, Albino and Scaly are still handled by the base game
+[*] Albino, Giant, Dwarf, Scaly, Spindly, Paranoid
+[/list]
+[b]Tainted blood[/b]
+[list]
+[*] Hideous, Imbecile, Feeble, Inbred
+[*] Lunatic, Possessed, Depressed
+[*] Wheezing, Bleeder, Club-footed, Hunchbacked, Stuttering
+[/list]
+Whether it is a dynasty of geniuses or a family curse, it is your choice.
+
+[h2]Every choice now works[/h2]
+The base game only hands out 8 of the perk's traits when a child is born. Any other trait you picked from a modded list was selectable but never appeared. This mod adds its own birth handler for all the traits it adds, using the base game's own rules:
+[list]
+[*] The child belongs to a dynasty that has the perk
+[*] At least one real parent is of that dynasty
+[*] A child who already has a conflicting trait is skipped
+[*] Same odds as the base game: 5%, plus 5% when a parent is a player
 [/list]
 
 [h2]Compatibility[/h2]
 [list]
-[*] Updated for Crusader Kings III [b]1.20 Crozier[/b]
-[*] This mod replaces the base game's [b]blood_legacy_4[/b] perk. It conflicts with any other mod that changes the same perk, including [b]More Dynasty Perk Options[/b]. Use only one of them.
-[*] It adds a handler to [b]on_birth_child[/b] without replacing the base game's, so it is compatible with other mods that use that hook
+[*] Made for Crusader Kings III [b]1.20 Crozier[/b]
+[*] Replaces the base game's [b]blood_legacy_4[/b] perk, so it conflicts with other mods that change that perk, including [b]More Dynasty Perk Options[/b]. Use only one of them.
+[*] Adds to the base game's birth hook instead of replacing it, so other birth mods keep working
 [/list]
 
 [h2]Source[/h2]
