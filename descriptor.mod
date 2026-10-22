@@ -1,4 +1,4 @@
-version="1.6.1.2"
+version="1.20.1.2"
 tags={
 	"Character Focuses"
 	"Character Interactions"
@@ -9,5 +9,5 @@ tags={
 }
 name="Extra Ancestry Architecture"
 picture="thumbnail.png"
-supported_version="1.6.1.2"
+supported_version="1.20.*"
 remote_file_id="2761001137"
