@@ -3,6 +3,7 @@
 
 	effect = {
 		# Effect is applied in the on action 'on_birth_child'
+		# (vanilla handles fecund, giant, dwarf, albino and scaly; the rest is in common/on_action/zz_extra_ancestry_architecture.txt)
 		custom_description_no_bullet = {
 			text = blood_legacy_4_effect
 		}
@@ -13,7 +14,8 @@
 		intellect_good_3 = 100
 		physique_good_3 = 100
 		fecund = 50
-		ambitious  = 50
+		pure_blooded = 50
+		ambitious = 50
 		zealous = 50
 		albino = 50
 		paranoid = 10
@@ -24,5 +26,14 @@
 		inbred = 1
 		beauty_bad_3 = 1
 		intellect_bad_3 = 1
+		physique_bad_3 = 1
+		lunatic_genetic = 1
+		possessed_genetic = 1
+		depressed_genetic = 1
+		wheezing = 1
+		bleeder = 1
+		clubfooted = 1
+		hunchbacked = 1
+		stuttering = 1
 	}
 }

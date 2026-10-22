@@ -1,5 +1,4 @@
-Updated for Crusader Kings III 1.20.1.2 (Crozier).
-- The perk file is saved as UTF-8 with BOM (the game flagged it before).
-- The perk is now named Extra Architected Ancestry in English.
-- Fixed the preview image file name (thumbnail.png).
-- New preview image and a full description. The perk's traits are unchanged.
+Now 25 traits to choose from (was 15).
+- New choices: Pure-blooded, Feeble, Lunatic, Possessed, Depressed, Wheezing, Bleeder, Club-footed, Hunchbacked and Stuttering.
+- Fixed: the base game only applies eight of the choices when a child is born, so most of the extra traits did nothing. The mod now has its own birth handler for every trait it adds.
+- New cover, banner and screenshots showing the full list.

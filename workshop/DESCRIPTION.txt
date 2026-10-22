@@ -1,19 +1,29 @@
 [h1]Extra Ancestry Architecture[/h1]
-Reworks the [b]Architected Ancestry[/b] dynasty perk (the fourth perk of the [b]Blood[/b] legacy). When you unlock it you pick one congenital trait to become more common in your dynasty; this mod gives you more, and better, traits to pick from.
+Reworks the [b]Architected Ancestry[/b] dynasty perk (the fourth perk of the [b]Blood[/b] legacy). When you unlock it you pick one congenital trait to become more common in your dynasty; this mod gives you far more traits to pick from, and makes sure each one is actually handed out when a child is born.
 
 [h2]What changes[/h2]
 [list]
-[*] [b]15 traits to choose from[/b] instead of 8
+[*] [b]25 traits to choose from[/b] instead of 8
 [*] [b]Beauty, Intellect and Physique[/b] now offer the top tier (III) instead of tier I
-[*] [b]Added:[/b] Ambitious, Zealous, Paranoid, Spindly, Inbred, Bad Beauty III and Bad Intellect III
-[*] Unchanged: Fecund, Albino, Giant, Dwarf and Scaly keep their values from the base game
+[*] [b]Good and neutral:[/b] Pure-blooded, Ambitious, Zealous, Paranoid
+[*] [b]Physical:[/b] Spindly, Inbred, Feeble, Wheezing, Bleeder, Club-footed, Hunchbacked, Stuttering
+[*] [b]Mind:[/b] Lunatic, Possessed, Depressed
+[*] [b]Also there:[/b] Hideous and Imbecile (tier III), plus Fecund, Albino, Giant, Dwarf and Scaly from the base game
 [*] In English the perk is renamed [b]Extra Architected Ancestry[/b]
+[/list]
+
+[h2]How it works[/h2]
+[list]
+[*] The base game only applies eight of the choices when a child is born. This mod adds its own birth handler for the rest, using the same rules: the child must belong to a dynasty with the perk, one real parent must be of that dynasty, and a child who already has a conflicting trait is skipped
+[*] Same chance as the base game (5%, plus 5% when a parent is a player)
+[*] Fecund, Giant, Dwarf, Albino and Scaly are still handled by the base game
 [/list]
 
 [h2]Compatibility[/h2]
 [list]
 [*] Updated for Crusader Kings III [b]1.20 Crozier[/b]
-[*] This mod replaces the base game's [b]blood_legacy_4[/b] perk. It conflicts with any other mod that changes the same perk, including [b]More Dynasty Perk Options[/b] (same change). Use only one of them.
+[*] This mod replaces the base game's [b]blood_legacy_4[/b] perk. It conflicts with any other mod that changes the same perk, including [b]More Dynasty Perk Options[/b]. Use only one of them.
+[*] It adds a handler to [b]on_birth_child[/b] without replacing the base game's, so it is compatible with other mods that use that hook
 [/list]
 
 [h2]Source[/h2]
